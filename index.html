@@ -172,6 +172,7 @@
     .hero h1 span {
       color: var(--blue-dark);
       background: linear-gradient(transparent 63%, rgba(255, 229, 154, 0.92) 63%);
+      white-space: nowrap;
     }
 
     .hero-lead {
@@ -422,9 +423,10 @@
     }
 
     .purchase-box h2 {
-      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-size: clamp(1.45rem, 3.6vw, 3rem);
       line-height: 1.25;
       margin-bottom: 12px;
+      white-space: nowrap;
     }
 
     .purchase-box p {
@@ -572,6 +574,14 @@
         font-size: 0.86rem;
       }
 
+      .hero h1 {
+        font-size: clamp(1.9rem, 8vw, 2.35rem);
+      }
+
+      .purchase-box h2 {
+        font-size: clamp(1rem, 4.7vw, 1.45rem);
+      }
+
       section {
         padding: 52px 0;
       }
@@ -619,7 +629,6 @@
             <a class="button" href="#purchase">LINE STOREで見る</a>
             <a class="button secondary" href="#preview">スタンプ一覧を見る</a>
           </div>
-          <p class="hero-note">※LINE STOREの販売URLは、審査通過・販売開始後に差し替えてください。</p>
         </div>
 
         <div class="hero-card fade-in" aria-label="青いシャツのねこの季節スタンプ一覧プレビュー">
@@ -747,18 +756,7 @@
               <p>季節のあいさつ、天気の話題、イベント、年末年始のやり取りなど、日常のLINEトークで使いやすい内容です。</p>
             </div>
           </article>
-
-          <article class="faq-item fade-in">
-            <button class="faq-question" type="button">
-              <span>購入リンクはどこに入れますか？</span>
-              <span class="faq-icon">＋</span>
-            </button>
-            <div class="faq-answer">
-              <p>販売開始後に、HTML内の「LINE STOREへ」ボタンのURLを、実際のLINE STORE販売ページURLに差し替えてください。</p>
-            </div>
-          </article>
-
-          <article class="faq-item fade-in">
+<article class="faq-item fade-in">
             <button class="faq-question" type="button">
               <span>スマホでも見やすいですか？</span>
               <span class="faq-icon">＋</span>
@@ -767,17 +765,7 @@
               <p>はい。スマートフォン、タブレット、PCで見やすくなるように、画面幅に合わせてレイアウトが変わります。</p>
             </div>
           </article>
-
-          <article class="faq-item fade-in">
-            <button class="faq-question" type="button">
-              <span>画像を差し替えることはできますか？</span>
-              <span class="faq-icon">＋</span>
-            </button>
-            <div class="faq-answer">
-              <p>できます。imagesフォルダ内の画像を差し替えるか、HTML内の画像ファイル名を変更すれば反映できます。</p>
-            </div>
-          </article>
-        </div>
+</div>
       </div>
     </section>
   </main>
