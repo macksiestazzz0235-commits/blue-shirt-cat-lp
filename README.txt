@@ -12,3 +12,6 @@
 後で変更する場所：
 - LINE STOREの販売URLが決まったら、index.html内の https://store.line.me/ を実際のURLに差し替えてください。
 - 画像を差し替えたい場合は、images/season-stamps-preview.png を同じ名前で上書きしてください。
+
+
+更新内容 v3：販売ページとして自然になるよう、製作者向けの説明文を削除・修正しました。
