@@ -1,8 +1,4 @@
-青いシャツのねこ スタンプシリーズLP
-
-使い方：
-1. index.html をダブルクリックします。
-2. ブラウザでLPが表示されます。
+青いシャツのスタンプシリーズLP
 
 GitHubにアップロードするもの：
 - index.html
@@ -10,7 +6,10 @@ GitHubにアップロードするもの：
 - images フォルダ
 
 内容：
-- 季節のあいさつスタンプ
-- 青いシャツのネコ
-- 青いシャツのネコ2
-- 青いシャツのネコ3
+- 総合ポータル型LPに変更
+- 季節のあいさつスタンプを「今おすすめ」枠として表示
+- 商品一覧を4商品カードで統一
+- 各商品に一覧画像とLINE STOREボタンを配置
+
+使用画像：
+{'season-stamps-preview.png': 'ChatGPT Image 2026年5月2日 09_06_55(1).png', 'blue-shirt-cat-1-list.png': 'blue shrts cat.png', 'blue-shirt-cat-2-list.png': 'blue shirt cat2(1).png', 'blue-shirt-cat-3-list.png': 'blue shrts cat3(1).png'}
